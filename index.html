@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Action Water Solutions | Water Softeners &amp; Treatment in Valparaiso, IN</title>
+<meta name="description" content="Family-owned water softener, reverse osmosis and well water treatment supplier in Valparaiso, serving Lake, Porter and LaPorte Counties. Free in-home water testing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600;700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#2175FF;--accent:#30A8D8;--dark:#00246C;--light:#F4F8FC;
+  --ink:#14213d;--muted:#4a5872;--line:#dde6f2;--r:6px;
+  --display:"Libre Franklin",system-ui,sans-serif;--body:"Lato",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;font-family:var(--body);color:var(--ink);background:#fff;line-height:1.6;font-size:1.0625rem}
+img{display:block;max-width:100%}
+a{color:var(--primary)}
+h1,h2,h3{font-family:var(--display);line-height:1.12;margin:0 0 .6em;overflow-wrap:anywhere;color:var(--dark)}
+h1{font-size:clamp(2.2rem,4.2vw + 1rem,4.5rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(1.75rem,2.4vw + 1rem,2.75rem);font-weight:800;letter-spacing:-.015em}
+h3{font-size:1.2rem;font-weight:700}
+p{margin:0 0 1em}
+.wrap{width:min(1200px,100% - 2.5rem);margin-inline:auto}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:.8rem;display:block}
+section{padding:clamp(4rem,8vw,6.5rem) 0}
+.lead{font-size:1.15rem;color:var(--muted);max-width:60ch}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--display);font-weight:700;font-size:1rem;padding:.9rem 1.5rem;border-radius:var(--r);text-decoration:none;border:2px solid transparent;transition:background .2s,color .2s,border-color .2s,transform .2s;cursor:pointer}
+.btn:hover{transform:translateY(-1px)}
+.btn-accent{background:var(--accent);color:#fff}
+.btn-accent:hover{background:#1f93c2}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:#155fdb}
+.btn-ghost{border-color:rgba(255,255,255,.75);color:#fff;background:transparent}
+.btn-ghost:hover{background:#fff;color:var(--dark)}
+.btn-outline{border-color:var(--primary);color:var(--primary);background:#fff}
+.btn-outline:hover{background:var(--primary);color:#fff}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:76px}
+.brand img{height:48px;width:auto;object-fit:contain}
+.links{display:flex;align-items:center;gap:1.75rem}
+.links a{font-family:var(--display);font-weight:600;font-size:.95rem;color:var(--dark);text-decoration:none}
+.links a:hover{color:var(--primary)}
+.nav-call{display:flex;align-items:center;gap:1rem}
+.nav-call .btn{padding:.65rem 1.1rem;font-size:.95rem}
+.toggle{display:none;background:none;border:1px solid var(--line);border-radius:var(--r);width:46px;height:46px;cursor:pointer;align-items:center;justify-content:center}
+.toggle span,.toggle span::before,.toggle span::after{display:block;width:20px;height:2px;background:var(--dark);position:relative;content:"";transition:transform .2s}
+.toggle span::before{position:absolute;top:-6px}
+.toggle span::after{position:absolute;top:6px}
+.toggle[aria-expanded="true"] span{background:transparent}
+.toggle[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.toggle[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+@media (max-width:920px){
+  .toggle{display:inline-flex}
+  .links{position:absolute;left:0;right:0;top:76px;background:#fff;flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--line);padding:.5rem 1.25rem 1.25rem;display:none}
+  .links.open{display:flex}
+  .links a{padding:.85rem 0;border-bottom:1px solid var(--line)}
+  .nav-call .btn .num{display:none}
+}
+@media (max-width:420px){.brand img{height:40px}.nav-call .btn{padding:.6rem .8rem}}
+
+/* hero */
+.hero{position:relative;min-height:min(86vh,760px);display:flex;align-items:center;padding:clamp(3.5rem,8vw,6rem) 0;color:#fff;overflow:hidden}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,24,74,.92) 0%,rgba(0,36,108,.78) 45%,rgba(0,36,108,.35) 100%)}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{color:#fff;max-width:15ch}
+.hero .eyebrow{color:#9fd8ef}
+.hero p.lead{color:#e3ecfa;font-size:clamp(1.05rem,1vw + .8rem,1.3rem);max-width:54ch}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:.85rem;margin-top:1.75rem}
+.hero-note{margin-top:1.25rem;font-size:.95rem;color:#c9d8f0}
+.hero-note a{color:#fff;font-weight:700}
+
+/* proof strip */
+.proof{background:var(--dark);color:#fff;padding:1.6rem 0}
+.proof .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+.proof div{border-left:3px solid var(--accent);padding-left:1rem}
+.proof strong{display:block;font-family:var(--display);font-size:1.35rem;font-weight:800}
+.proof span{font-size:.92rem;color:#c3d3ee}
+@media (max-width:820px){.proof .wrap{grid-template-columns:1fr 1fr}}
+@media (max-width:420px){.proof .wrap{grid-template-columns:1fr}}
+
+/* services */
+.services{background:var(--light)}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1.5rem;margin-bottom:2.5rem}
+.sec-head h2{margin:0;max-width:20ch}
+.sec-head p{margin:0;max-width:46ch;color:var(--muted)}
+.grid-svc{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:1.6rem 1.4rem;position:relative;transition:box-shadow .25s,transform .25s}
+.card::before{content:"";position:absolute;top:0;left:1.4rem;width:36px;height:3px;background:var(--accent);border-radius:0 0 var(--r) var(--r)}
+.card:hover{box-shadow:0 14px 32px -18px rgba(0,36,108,.35);transform:translateY(-2px)}
+.card p{color:var(--muted);font-size:.98rem;margin:0}
+.card.feature{background:var(--primary);border-color:var(--primary)}
+.card.feature h3,.card.feature p{color:#fff}
+.card.feature::before{background:#fff}
+@media (max-width:1020px){.grid-svc{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.grid-svc{grid-template-columns:1fr}}
+
+.who{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:3rem}
+.who div{border-radius:var(--r);background:var(--dark);color:#fff;padding:1.5rem 1.4rem}
+.who h3{color:#fff;margin-bottom:.35em}
+.who p{color:#c3d3ee;margin:0;font-size:.97rem}
+@media (max-width:820px){.who{grid-template-columns:1fr}}
+
+/* gallery */
+.gallery-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem}
+.g{margin:0;border-radius:var(--r);overflow:hidden;background:var(--light);position:relative}
+.g img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.g:hover img{transform:scale(1.03)}
+.g figcaption{position:absolute;left:.75rem;bottom:.75rem;background:rgba(0,36,108,.85);color:#fff;font-size:.82rem;font-weight:700;padding:.3rem .65rem;border-radius:var(--r)}
+.g1{grid-column:span 4;aspect-ratio:16/10}
+.g2{grid-column:span 2;aspect-ratio:auto}
+.g3,.g4,.g5{grid-column:span 2;aspect-ratio:1}
+.g6,.g7{grid-column:span 3;aspect-ratio:3/2}
+.g8{grid-column:span 3;aspect-ratio:2/1;max-width:608px}
+.g9{grid-column:span 3;aspect-ratio:2/1}
+@media (max-width:820px){
+  .gallery-grid{grid-template-columns:1fr 1fr}
+  .g1{grid-column:span 2}
+  .g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9{grid-column:span 1;aspect-ratio:1}
+  .g8{aspect-ratio:2/1;grid-column:span 2}
+}
+@media (max-width:480px){
+  .gallery-grid{grid-template-columns:1fr}
+  .g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9{grid-column:span 1}
+}
+
+/* about */
+.about{background:var(--light)}
+.about-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.about-photo{border-radius:var(--r);overflow:hidden;aspect-ratio:7/5}
+.about-photo img{width:100%;height:100%;object-fit:cover}
+.checks{list-style:none;padding:0;margin:1.5rem 0 2rem;display:grid;gap:.85rem}
+.checks li{display:flex;gap:.75rem;align-items:flex-start}
+.checks svg{flex:none;margin-top:.2rem}
+.sister{font-size:.95rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1.25rem;margin:0}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}}
+
+/* area */
+.area-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(2rem,5vw,4rem);align-items:start}
+.counties{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.county{border:1px solid var(--line);border-radius:var(--r);padding:1.5rem 1.25rem;text-align:left}
+.county strong{display:block;font-family:var(--display);font-size:1.25rem;color:var(--dark)}
+.county span{color:var(--muted);font-size:.92rem}
+.county.home{border-color:var(--primary);background:var(--light)}
+@media (max-width:900px){.area-grid{grid-template-columns:1fr}}
+@media (max-width:520px){.counties{grid-template-columns:1fr}}
+
+/* contact */
+.contact{background:linear-gradient(135deg,var(--dark) 0%,#003a9e 100%);color:#fff}
+.contact h2{color:#fff}
+.contact-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.contact .lead{color:#d2def3}
+.contact-card{background:#fff;color:var(--ink);border-radius:var(--r);padding:2rem}
+.contact-card h3{margin-bottom:1rem}
+.contact-card dl{margin:0 0 1.5rem;display:grid;gap:1rem}
+.contact-card dt{font-family:var(--display);font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--primary)}
+.contact-card dd{margin:.15rem 0 0}
+.contact-card dd a{color:var(--dark);font-weight:700;text-decoration:none}
+.contact-card .btn{width:100%}
+@media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:#001845;color:#b5c5e2;padding:3rem 0 2rem;font-size:.95rem}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2rem}
+.foot-brand{font-family:var(--display);font-weight:800;font-size:1.3rem;color:#fff;margin-bottom:.4rem}
+footer a{color:#fff;text-decoration:none}
+footer a:hover{text-decoration:underline}
+.foot ul{list-style:none;padding:0;margin:0;display:grid;gap:.4rem}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:2rem;padding-top:1.25rem;font-size:.85rem}
+
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .reveal{opacity:1;transform:none;transition:none}
+  .btn,.card,.g img{transition:none}
+  .btn:hover,.card:hover{transform:none}
+  .g:hover img{transform:none}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Action Water Solutions home">
+      <img src="https://img1.wsimg.com/isteam/ip/4d822194-0bcf-4196-ac74-4ed4a61022dc/Action%20Logo-01.png" alt="Action Water Solutions" width="200" height="60">
+    </a>
+    <nav class="links" id="menu" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#about">About</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-call">
+      <a class="btn btn-primary" href="tel:+12192998273" aria-label="Call (219) 299-8273">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+        <span class="num">(219) 299-8273</span><span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Call</span>
+      </a>
+      <button class="toggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <img class="hero-img" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RyZtSDjt0jkbp_aAQV_y6BoL_EGHiXOn4ZduxdeYGHlThyeLW8nvzq5R8gh7HYgJRJ46sRtW6uQRPnD3nVuQNr0F0r4gdqVHPvRRPP9RjTK49wlx77WrIJue-xbhDOKCfC4lVp=w1600-h1600" alt="Action Water Solutions branded service van parked in the snow" width="4032" height="3024" fetchpriority="high">
+    <div class="wrap">
+      <span class="eyebrow">Family-owned in Valparaiso, Indiana</span>
+      <h1>Hard water in Northwest Indiana? Let's test it first.</h1>
+      <p class="lead">Water softeners, reverse osmosis and well water treatment for homes and businesses across Lake, Porter and LaPorte Counties, with guaranteed lowest prices on water softeners and a free in-home water test before you buy anything.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-accent" href="#contact">Book a Free Water Test</a>
+        <a class="btn btn-ghost" href="tel:+12192998273">Call (219) 299-8273</a>
+      </div>
+      <p class="hero-note">Rated 5.0 by 112 Google reviewers &middot; Visit us at 760 Lincolnway</p>
+    </div>
+  </section>
+
+  <div class="proof" aria-label="At a glance">
+    <div class="wrap">
+      <div class="reveal"><strong>5.0 rating</strong><span>From 112 Google reviews</span></div>
+      <div class="reveal"><strong>25+ years</strong><span>Technician experience in water treatment</span></div>
+      <div class="reveal"><strong>Since 2018</strong><span>Local shop on Lincolnway in Valparaiso</span></div>
+      <div class="reveal"><strong>Free test</strong><span>In-home water testing, no pressure</span></div>
+    </div>
+  </div>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div>
+          <span class="eyebrow">What we do</span>
+          <h2>Everything your water needs, from one local shop</h2>
+        </div>
+        <p>We start with what's actually in your water, then recommend the right equipment with clear, upfront pricing and warranty coverage.</p>
+      </div>
+      <div class="grid-svc">
+        <article class="card feature reveal"><h3>Free In-Home Water Testing</h3><p>We test your water at your tap so you know exactly what you're dealing with before spending a dollar.</p></article>
+        <article class="card reveal"><h3>Water Softeners</h3><p>Residential and commercial softeners to tackle hard water scale, spotting and dry skin, at guaranteed lowest prices.</p></article>
+        <article class="card reveal"><h3>Softener Service</h3><p>Repairs and upkeep to keep your existing softener running the way it should.</p></article>
+        <article class="card reveal"><h3>Reverse Osmosis</h3><p>Under-sink RO systems for cleaner-tasting drinking and cooking water.</p></article>
+        <article class="card reveal"><h3>Well Water Treatment</h3><p>Systems built for private wells and the iron, odor and hardness issues that come with them.</p></article>
+        <article class="card reveal"><h3>Specialty Filtration</h3><p>Targeted filters for specific problems your water test turns up.</p></article>
+        <article class="card reveal"><h3>Bottled Water</h3><p>Bottled water for homes and offices, delivered by a local team.</p></article>
+        <article class="card reveal"><h3>Rental &amp; Delivery</h3><p>Rent a water softener instead of buying, with equipment delivered to your door.</p></article>
+      </div>
+
+      <div class="who">
+        <div class="reveal"><h3>Homeowners</h3><p>Softeners, drinking water systems and rentals sized to your household and your water.</p></div>
+        <div class="reveal"><h3>Businesses</h3><p>Commercial softening and filtration equipment with service from people down the road.</p></div>
+        <div class="reveal"><h3>Well Owners</h3><p>Treatment matched to your well's test results, not a one-size-fits-all box.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div>
+          <span class="eyebrow">Our work</span>
+          <h2>On the road across Northwest Indiana</h2>
+        </div>
+        <p>Installs, deliveries and equipment from our Valparaiso team.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g g1 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TwMTp7guDUij1wiwXZ4DH2irAyVRQYN_maqxs_xV89fjATz7sPPGWUB7iYf50xdrISgTqMyyi_Z-6NyrUiObHV8AErleaRg68a76mJNl_HiBBAkRMF-1YZeRiRVMfB_aRQZeI=w1600-h1600" alt="Action Water Solutions water and salt delivery car" width="4032" height="3024" loading="lazy"><figcaption>Water &amp; salt delivery</figcaption></figure>
+        <figure class="g g2 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RnapNfEdW0Sp6pBjIx4Dl3YqABpkf2Xj4-DjaKGVziwvO72KQ5OfzkFRAsDFVx4liVvMNKvrEteflubee24nL1ZPkxlTi89ovuB6mhsgbVoywu7Pla0-0PtRxJdnXcjR7BCgQ5=w1600-h1600" alt="Water treatment equipment from Action Water Solutions" width="1241" height="1241" loading="lazy"></figure>
+        <figure class="g g3 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SI-Djp0HdSrQ43U6995T5131gWGMxunerwUCJ7pkzHk1dwVWT_OFqbwZwf9bDYM8SfcF2EQ8AGhIiidv1Hi6BwaiFsS7huc8XXofywm-eTCx2_b3sNJjYgIzlu46Qbok8WgXQ=w1600-h1600" alt="Water softening equipment" width="900" height="900" loading="lazy"></figure>
+        <figure class="g g4 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpsuReKXNn_MoDEwRXNUBiEMMWT84DkncautBFUOOCDvURkoqDYbwMMnFDNbCp5qrJRwpEb6q_thIDkMxIPMj4uh2AxBx5jxYr16edl13P0nQpyxbl_NMFOPSEg3UPYsemfBKI3g=w1600-h1600" alt="Water filtration system" width="1000" height="1000" loading="lazy"></figure>
+        <figure class="g g5 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TGNwUaYMVuOe61Kjx4ITbI9azDFMQnypMabC7519XyHALp3wJzpWJfD8R9se3mVjxzzkrsKm7rP2F8N6MY7KuJiRQZvgswQHauI-EgBDxlA24mwxJzE-Vln2OylsNjvBYoSUHkew=w1600-h1600" alt="Water treatment product" width="1000" height="1000" loading="lazy"></figure>
+        <figure class="g g6 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SPIg8FyvyQY_CeyW1gedzyXOEapp5tS2t297o1HCH5RoFPaSwVJ0pqxlS5u7s52EMZAWjIVeNPs5ZlI4o0_HhWRifgpThJ1Y13WR2MDam3_wMaT_NVFv34hSqnuOavAZo5hWE=w1600-h1600" alt="Water treatment installation" width="2408" height="1702" loading="lazy"></figure>
+        <figure class="g g7 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qb0sZEOsdHs5gwChdsojy_ZWQVbcDAGlMsmDjD6bYbLzUYeBWN4852cTFAvKg87AfTZeXRrdh79R8sXpwp6MV32jstjwii-EudXzGeS6xy-eYZ24oRxacReGagU7qyFoYU1Tyk=w1600-h1600" alt="Action Water Solutions equipment" width="960" height="640" loading="lazy"></figure>
+        <figure class="g g8 reveal"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TxVedt9ihSsn825kmBXV_rjC2xUJ4hzc7cqGUJqSPF96FcI2t-W3_aMUg_W3qt9Y-LSoWfkJcx6eXxXZ9PXgu6-pI50MYXr_EiqWjMJUr9lOmeNI960Az_8vyhO14CDVl1ljl4DA=w1600-h1600" alt="Action Water Solutions" width="608" height="304" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-photo reveal">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SL7NMty0SntXRUWhj9Si20ML-3E9N7ylkUiYsI-6o_mWvTR-8g1UT5Ctp_zM-XY1OjlIshsaKIzVuhh42KLhkvbA-3Zm-lHLaot-RT1ZFlXS2GC4wAY0hGVLL_MPe6c0mJwk8=w1600-h1600" alt="Action Water Solutions shop and yard sign on Lincolnway in Valparaiso" width="3210" height="1836" loading="lazy">
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Why Action Water</span>
+        <h2>A family shop that tests first and prices plainly</h2>
+        <p>Action Water Solutions is a local, family-owned business on Lincolnway in Valparaiso. Since 2018 we've supplied residential and commercial water softeners, reverse osmosis, filters and well water systems to our neighbors across Northwest Indiana.</p>
+        <ul class="checks">
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2175FF" stroke-width="2.6" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Over 25 years of experience</strong> in water treatment behind every recommendation.</span></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2175FF" stroke-width="2.6" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Transparent pricing</strong> and guaranteed lowest prices on water softeners.</span></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2175FF" stroke-width="2.6" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Warranties and rentals</strong> so you can choose what fits your budget.</span></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2175FF" stroke-width="2.6" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><strong>A free in-home water test</strong> before any sale.</span></li>
+        </ul>
+        <p class="sister">Shopping online? Our sister company, Aplus Water, sells DuraWater equipment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="area">
+    <div class="wrap area-grid">
+      <div class="reveal">
+        <span class="eyebrow">Service area</span>
+        <h2>Serving Northwest Indiana</h2>
+        <p class="lead">From our shop in Valparaiso we test, install, service and deliver throughout three counties. Not sure if you're in range? Give us a call.</p>
+        <a class="btn btn-outline" href="tel:+12192998273">Call (219) 299-8273</a>
+      </div>
+      <div class="counties">
+        <div class="county home reveal"><strong>Porter County</strong><span>Home base, including Valparaiso</span></div>
+        <div class="county reveal"><strong>Lake County</strong><span>Homes and businesses</span></div>
+        <div class="county reveal"><strong>LaPorte County</strong><span>Homes and businesses</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="eyebrow" style="color:#9fd8ef">Free in-home water test</span>
+        <h2>Find out what's in your water, at no cost</h2>
+        <p class="lead">Call to schedule your free test. We'll walk through the results with you, explain your options and give you a straight price. No pressure either way.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-accent" href="tel:+12192998273">Call (219) 299-8273</a>
+          <a class="btn btn-ghost" href="https://actionwatersolutions.com">Visit our website</a>
+        </div>
+      </div>
+      <div class="contact-card reveal">
+        <h3>Action Water Solutions</h3>
+        <dl>
+          <div><dt>Phone</dt><dd><a href="tel:+12192998273">(219) 299-8273</a></dd></div>
+          <div><dt>Shop</dt><dd><a href="https://www.google.com/maps/search/?api=1&amp;query=760+Lincolnway+Valparaiso+IN+46385">760 Lincolnway<br>Valparaiso, IN 46385</a></dd></div>
+          <div><dt>Serving</dt><dd>Lake, Porter &amp; LaPorte Counties</dd></div>
+        </dl>
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=760+Lincolnway+Valparaiso+IN+46385">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot reveal">
+      <div>
+        <div class="foot-brand">Action Water Solutions</div>
+        <p style="margin:0;max-width:34ch">Family-owned water softening and treatment in Valparaiso, Indiana.</p>
+      </div>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#area">Service Area</a></li>
+      </ul>
+      <ul>
+        <li><a href="tel:+12192998273">(219) 299-8273</a></li>
+        <li>760 Lincolnway, Valparaiso, IN 46385</li>
+        <li><a href="https://actionwatersolutions.com">actionwatersolutions.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-bottom reveal">&copy; <span id="yr"></span> Action Water Solutions. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){
+  var b=document.querySelector('.toggle'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){
+    var o=b.getAttribute('aria-expanded')==='true';
+    b.setAttribute('aria-expanded',String(!o));
+    b.setAttribute('aria-label',o?'Open menu':'Close menu');
+    m.classList.toggle('open',!o);
+  });
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){
+    b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open menu');m.classList.remove('open');
+  });});
+})();
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  var rm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!('IntersectionObserver' in window)||rm){els.forEach(function(e){e.classList.add('in');});return;}
+  var io=new IntersectionObserver(function(en){
+    en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e);});
+})();
+</script>
+</body>
+</html>
